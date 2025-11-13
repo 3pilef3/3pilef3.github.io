@@ -23,7 +23,7 @@ body{
     background: #ffffff;
     color: #000000;
     
-    font-size: 18px;
+    font-size: 20px;
     padding:0px 5px;
 }
 
@@ -126,7 +126,46 @@ body{
 
 }
 
+.box_drawing{ 
+    margin:auto;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    height: auto;
+    max-width: 100%;
+}
 
+.textbox_about{
+display: inline-block;
+    /* background: #060606; */
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.textbox_about2{
+    display: inline-block;
+        /* background: #060606; */
+        color: #ffffff;
+        background-color: #000000;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 25px;
+    }
+
+    .imgabout{
+        margin:auto;
+        justify-content:space-evenly;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        height: auto;
+        max-width: 100%;
+    }
 
 
 
