@@ -168,4 +168,12 @@ display: inline-block;
     }
 
 
-
+.about-italic{
+display: inline-block;
+    /* background: #060606; */
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-style:italic
+}
